@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Detail Page</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 40px;
+        }
+
+        .page {
+            display: flex;
+            gap: 40px;
+        }
+
+        .product-image {
+   width: 200px;
+    height: 200px;
+    border: 1px solid #333;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+        a {
+            color: #1a0dab;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 6px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Product Detail Page</h1>
+
+    <div class="page">
+        <div class="product-image">
+           <img src="./imag/image.png" width="100">
+        </div>
+
+        <div class="product-details">
+            <h2>Wireless Keyboard</h2>
+            <p>Price: $29.00</p>
+
+            <h3>Description</h3>
+            <p>A simple keyboard for students who learn coding.</p>
+
+            <h3>Features</h3>
+            <ul>
+                <li>Bluetooth connection</li>
+                <li>Rechargeable battery</li>
+                <li>Small and light</li>
+                <li>Good for students</li>
+            </ul>
+
+            <a href="#">Buy Now</a><br>
+        </div>
+    </div><br>
+    <a href="./school.html">Next page</a><br><br>
+    <a href="./Menu.html">Back page</a>
+</body>
+</html>

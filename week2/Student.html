@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+
+    <h1>Student Registration Form</h1>
+
+    <form action="#" method="post">
+        
+        <p>
+            <label for="name">Full Name</label><br>
+            <input id="name" name="fullname" type="text" placeholder="text input" required><br><br>
+            
+            <label for="email">Email Address</label><br>
+            <input id="email" name="email" type="email" placeholder="email input" required><br><br>
+            
+            <label for="gender">Gender</label><br>
+            <select id="gender" name="gender">
+                <option value="" disabled selected>select option</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br><br>
+
+            <label for="course">Course</label><br>
+            <select id="course" name="course">
+                <option value="" disabled selected>select option</option>
+                <option value="web-development">Web Development</option>
+                <option value="database">Database Systems</option>
+                <option value="programming">Programming Fundamentals</option>
+            </select><br><br>
+
+            <label for="message">Message</label><br>
+            <textarea id="message" name="message" placeholder="textarea" rows="5" cols="40"></textarea><br><br>
+
+            <input type="checkbox" id="rules" name="rules" required>
+            <label for="rules">I agree to class rules</label>
+        </p><button type="button">submint</button><br><br>
+        <a href="./Menu.html">Next page</a><br><br>
+        <a href="./Web.html">Back page</a><br>
+        
+    </form>
+</body>
+</html>
